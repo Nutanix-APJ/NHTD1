@@ -18,7 +18,7 @@ Create AD VM for AD/LDAP connectivity
 Open https://<POCxx-ABC Cluster IP>:9440 (https://10.42.xx.37:9440) in your browser and log in with the following credentials:
 
 Username - admin
-Password - techX2019!
+Password - techX2020!
 
 In **Prism > Storage** , create a Storage Container called **Images**.
 

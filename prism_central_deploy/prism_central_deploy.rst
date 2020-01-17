@@ -23,7 +23,7 @@ The primary network is for PC and other VMs deployment, the secondary network is
 Open \https://*<POCxx-ABC Cluster IP>*:9440 (\https://10.42.xx.37:9440) in your browser and log in with the following credentials:
 
 - **Username** - admin
-- **Password** - techX2019!
+- **Password** - tech2020!
 
 Navigate to **Prism > Configuration** and click **Network Configuration**, then **Virtual Networks** .
 
@@ -45,7 +45,7 @@ Prism Central Deploy
 Open \https://*<POCxx-ABC Cluster IP>*:9440 (\https://10.42.xx.37:9440) in your browser and log in with the following credentials:
 
 - **Username** - admin
-- **Password** - techX2019!
+- **Password** - tech2020!
 
 Navigate to **Home** page and click **Register or create new** in Prism Central widget.
 
@@ -77,7 +77,7 @@ After Prism Central VM is successfully deployed, open \https://*<PC VM IP>*:9440
 
 - **Username** - admin
 - **Password** - default with capital N
-- change password to **techX2019!**
+- change password to **techX2020!**
 
 Test if you can login Prism Central with the new password.
 
@@ -106,7 +106,7 @@ Fill out the following fields, leave others as default and click **Connect**:
 - **Prism Central IP** - 10.42.xx.39
 - **Port** - 9440
 - **Username** - admin
-- **Password** - techX2019!
+- **Password** - techX2020!
 
 .. figure:: images/7.png
 

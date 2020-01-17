@@ -35,11 +35,11 @@ A Hosted POC reservation provides a fully imaged cluster consisting of 4 nodes. 
 Using an SSH client, connect to the **Node A CVM IP** <10.42.xx.29> in your assigned block using the following credentials:
 
 - **Username** - nutanix
-- **Password** - *techX2019!*
+- **Password** - *techX2020!*
 
 .. code-block:: bash
 
-  ssh nutanix@10.42.xx.29          # password: techX2019!
+  ssh nutanix@10.42.xx.29          # password: tech2020!
 
 Execute the following commands to power off any running VMs on the cluster, stop cluster services, and destroy the existing cluster:
 
@@ -56,12 +56,12 @@ Remaining in SSH client, access Node-D CVM and execute following commands
 
 .. code-block:: bash
 
- ssh nutanix@10.42.xx.32           # password: techX2019!
+ ssh nutanix@10.42.xx.32           # password: techX2020!
  cluster -s 10.42.xx.32 create       # Enter 'Y' when prompted to proceed
 
  ncli cluster edit-params new-name=POCxx-D
  ncli cluster add-to-name-servers servers=10.42.196.10
- ncli user reset-password user-name='admin' password=techX2019! 
+ ncli user reset-password user-name='admin' password=techX2020! 
 
 .. note::
 
@@ -75,7 +75,7 @@ Install Foundation VM
 Open \https://*<Node D CVM IP>*:9440 (\https://10.42.xx.32:9440) in your browser and log in with the following credentials:
 
 - **Username** - admin
-- **Password** - techX2019!
+- **Password** - techX2020!
 
 Accept the EULA and Pulse prompts.
 
@@ -384,7 +384,7 @@ Open \https://*<Cluster Virtual IP >*:9440 (10.42.xx.37)in your browser and log 
 
 - **Username** - admin
 - **Password** - *default*
-- **Change the Password** - techX2019!
+- **Change the Password** - techX2020!
 
 
 
