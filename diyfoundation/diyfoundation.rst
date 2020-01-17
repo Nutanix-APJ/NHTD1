@@ -94,7 +94,7 @@ Fill out the following fields and click **Save**:
 - **Image Type** - Disk
 - **Storage Container** Images
 - Select **From URL**
-- **Image Source** - https://ntnx-portal.s3.amazonaws.com/foundation/foundation-4.4.1/Foundation_VM-4.4.1-disk-0.qcow2
+- **Image Source** - https://ntnx-portal.s3.amazonaws.com/Foundation/4.5.1/Foundation_VM-4.5.1-disk-0.qcow2
 
 
 .. image:: images/image002.png
@@ -102,7 +102,7 @@ Fill out the following fields and click **Save**:
    
 .. note::
 
-  At the time of writing, Foundation 4.4.1 is the latest available version. The URL for the latest Foundation VM QCOW2 image can be downloaded from the `Nutanix Portal <https://portal.nutanix.com/#/page/foundation>`_.
+  At the time of writing, Foundation 4.5.1 is the latest available version. The URL for the latest Foundation VM QCOW2 image can be downloaded from the `Nutanix Portal <https://portal.nutanix.com/#/page/foundation>`_.
 
   **Unless otherwise directed by support, always use the latest version of Foundation in field installation.**
   
