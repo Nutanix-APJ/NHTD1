@@ -232,7 +232,7 @@ Open a terminal and ssh to foundation VM through foundation IP <10.42.xx.45>
  ..
 
 
-When you see 100% finish, AOS 5.10.5 package has been downloaded to ~/foundation/nos folder.
+When you see 100% finish, AOS 5.11.1 package has been downloaded to ~/foundation/nos folder.
 
 From within the Foundation VM console, launch **Nutanix Foundation** from the desktop.
 
