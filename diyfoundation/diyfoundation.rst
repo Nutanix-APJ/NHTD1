@@ -45,7 +45,7 @@ Execute the following commands to power off any running VMs on the cluster, stop
 
 .. code-block:: bash
 
-  cluster stop        # Enter 'Y' when prompted to proceed
+  cluster stop        # Enter 'I agree' when prompted to proceed
   cluster destroy     # Enter 'Y' when prompted to proceed
 
 
@@ -117,6 +117,7 @@ Fill out the following fields and click **Save**:
 
 - **Name** - Primary
 - **VLAD ID** - 0
+- Enable IP address management - leave it unselected
 
 In **Prism > VM > Table** and click **+ Create VM**.
 
@@ -227,7 +228,7 @@ Open a terminal and ssh to foundation VM through foundation IP <10.42.xx.45>
  ssh nutanix@10.42.xx.45      # provide default password 
  cd foundation
  cd nos
- wget  https://ntnx-portal.s3.amazonaws.com/releases/euphrates-5.10.5-stable/nutanix_installer_package-release-euphrates-5.10.5-stable.tar.gz
+ wget  https://ntnx-portal.s3.amazonaws.com/releases/euphrates-5.11.1-stable/nutanix_installer_package-release-euphrates-5.11.1-stable-x86_64.tar.gz
  ..
 
 
