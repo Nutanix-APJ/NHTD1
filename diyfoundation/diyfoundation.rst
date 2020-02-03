@@ -39,7 +39,7 @@ Using an SSH client, connect to the **Node A CVM IP** <10.42.xx.29> in your assi
 
 .. code-block:: bash
 
-  ssh nutanix@10.42.xx.29          # password: tech2020!
+  ssh nutanix@10.42.xx.29          # password: techX2020!
 
 Execute the following commands to power off any running VMs on the cluster, stop cluster services, and destroy the existing cluster:
 
