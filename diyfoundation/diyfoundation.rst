@@ -228,7 +228,8 @@ Open a terminal and ssh to foundation VM through foundation IP <10.42.xx.45>
  ssh nutanix@10.42.xx.45      # provide default password 
  cd foundation
  cd nos
- wget  https://ntnx-portal.s3.amazonaws.com/releases/euphrates-5.11.1-stable/nutanix_installer_package-release-euphrates-5.11.1-stable-x86_64.tar.gz
+ wget  https://ntnx-portal.s3.amazonaws.com/releases/euphrates-5.11-stable/nutanix_installer_package-release-euphrates-5.11-stable-x86_64.tar.gz
+
  ..
 
 
