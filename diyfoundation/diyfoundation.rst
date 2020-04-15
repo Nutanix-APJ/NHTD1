@@ -102,7 +102,7 @@ Fill out the following fields and click **Save**:
    
 .. note::
 
-  At the time of writing, Foundation 4.5.1 is the latest available version. The URL for the latest Foundation VM QCOW2 image can be downloaded from the `Nutanix Portal <https://portal.nutanix.com/#/page/foundation>`_.
+  At the time of writing, Foundation 4.5.2 is the latest available version. The URL for the latest Foundation VM QCOW2 image can be downloaded from the `Nutanix Portal <https://portal.nutanix.com/#/page/foundation>`_.
 
   **Unless otherwise directed by support, always use the latest version of Foundation in field installation.**
   
@@ -312,7 +312,7 @@ Replacing the octet(s) that correspond to your HPOC network, fill out the follow
 Leave the first 2 options unselected, fill out the following fields and click **Next**:
 
 - **Cluster Name** - POCxx-ABC
-- **Timezone of Every Hypervisor and CVM** - *your local timezone*
+- **Timezone of Every Hypervisor and CVM** - America/Phoenix
 - **Cluster Redundancy Factor** - 2
 - **Cluster Virtual IP** - 10.42.xx.37
 
