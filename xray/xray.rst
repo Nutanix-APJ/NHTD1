@@ -159,7 +159,7 @@ Select **Targets** from the navigation bar and click **+ New Target**. Fill out 
 - **Power Management Type** - IPMI
 - **Username** - ADMIN
 - **Password** - ADMIN
-- **Prism Address** - *3-Node Cluster Virtual IP*<10.42.xx.37>
+- **Prism Address** - <*3-Node Cluster Virtual IP*> 10.42.xx.37
 - **Username** - admin
 - **Password** - techX2020!
 

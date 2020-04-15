@@ -29,23 +29,20 @@ Navigate to **Prism > Configuration** and click **Network Configuration**, then 
 
 Click **Create Network**. Fill out the following fields and click **Save**:
 
-Name - Primary
-VLAD ID - 0
+- **Name** - Primary
+- **VLAD ID** - 0
+- Enable IP address management - leave it unselected
 
 Click **Create Network**. Using the Cluster Details spreadsheet, fill out the following fields and click **Save**:
 
 - **Name** - Secondary
 - **VLAD ID** - *<Secondary VLAN ID>* xx1 (xx is your cluster ID)
+- Enable IP address management - leave it unselected
 
 .. figure:: images/image001.png
 
 Prism Central Deploy
 +++++++++++++++++++++
-
-Open \https://*<POCxx-ABC Cluster IP>*:9440 (\https://10.42.xx.37:9440) in your browser and log in with the following credentials:
-
-- **Username** - admin
-- **Password** - tech2020!
 
 Navigate to **Home** page and click **Register or create new** in Prism Central widget.
 
@@ -73,7 +70,7 @@ Fill out the following fields, leave others as default and click **Deploy**:
 
 .. note::
 
-After Prism Central VM is successfully deployed, open \https://*<PC VM IP>*:9440 (\https://10.42.xx.39:9440) in your browser and log in with the following credentials:
+The deployment will take about 30 mins, you can go to next lab sessions while waiting. After Prism Central VM is successfully deployed, open \https://*<PC VM IP>*:9440 (\https://10.42.xx.39:9440) in your browser and log in with the following credentials:
 
 - **Username** - admin
 - **Password** - default with capital N
