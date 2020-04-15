@@ -94,7 +94,7 @@ Fill out the following fields and click **Save**:
 - **Image Type** - Disk
 - **Storage Container** Images
 - Select **From URL**
-- **Image Source** - https://ntnx-portal.s3.amazonaws.com/Foundation/4.5.1/Foundation_VM-4.5.1-disk-0.qcow2
+- **Image Source** - https://ntnx-portal.s3.amazonaws.com/Foundation/4.5.2/Foundation_VM-4.5.2-disk-0.qcow2
 
 
 .. image:: images/image002.png
@@ -228,7 +228,7 @@ Open a terminal and ssh to foundation VM through foundation IP <10.42.xx.45>
  ssh nutanix@10.42.xx.45      # provide default password 
  cd foundation
  cd nos
- wget  https://ntnx-portal.s3.amazonaws.com/releases/euphrates-5.11-stable/nutanix_installer_package-release-euphrates-5.11-stable-x86_64.tar.gz
+ wget  https://ntnx-portal.s3.amazonaws.com/releases/euphrates-5.11.2.3-stable/nutanix_installer_package-release-euphrates-5.11.2.3-stable-x86_64.tar.gz
 
  ..
 
