@@ -37,7 +37,7 @@ Execute the following commands to upload AD image:
   acli image.create AutoAD container=Images image_type=kDiskImage source_url=http://10.42.194.11/workshop_staging/AutoAD.qcow2
 
 
-Now we are going to create an AD VM from image AutoDC. AD is a pre-requirement of File Service. This AD service is different from the AD service created from a Windows Server. We use it just to simplify the lab and you can take a brief view of file service deployment. 
+Now we are going to create an AD VM from image AutoAD. AD is a pre-requirement of File Service. 
 
 In **Prism > VM**, click **+ Create VM**
 
@@ -45,10 +45,7 @@ In **Prism > VM**, click **+ Create VM**
 .. image:: images/image003.png
 
    
-click **+ Add New Disk** , choose **Clone from Image Service** and image ‘AutoDC’，click **Add**.
-
-
-.. image:: images/image005.png
+click **+ Add New Disk** , choose **Clone from Image Service** and image ‘AutoAD’，click **Add**.
 
 
 Click **+Add new NIC** and choose **Primary**, click **Add**.
@@ -57,9 +54,9 @@ Click **+Add new NIC** and choose **Primary**, click **Add**.
 .. image:: images/image006.png 
 
  
-After AD VM is created successfully, power on AD VM, then launch console to see **domain name, IP Address and credentials of AD**. Record down them, your AD's IP is unique and has a pattern of 10.42.xx.yz. These information will be used later.
+After AD VM is created successfully, power on AD VM, then launch console to see the scripts are running for auto staging, it will provide DNS service as well. Go back to Prism UI to find IP of your AD VM. Record down them, your AD's IP has a pattern of 10.42.xx.yz. These information will be used later.
 
 
-.. image:: images/image008.png
+
 
 
