@@ -136,18 +136,6 @@ Select **I have read and agree to the terms and conditions** and click **Accept*
 
 .. figure:: images/9.png
 
-//Click **My Nutanix Log in** and specify your my.nutanix.com credentials. Fill out the following fields and click **Generate Token**:
-
-/- **Customer Name** - Nutanix Sales Enablement
-/- **Opportunity ID** - New Hire Training
-/- **Choose a reason for using X-Ray** - Self training on Nutanix
-
-/.. figure:: images/5.png
-
-/Click **Done**.
-
-/.. figure:: images/6.png
-
 .. note::
 
   If deploying X-Ray in an environment without internet access, tokens can be generated at https://my.nutanix.com/#/page/xray.
