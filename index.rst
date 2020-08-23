@@ -13,13 +13,22 @@
 
 .. toctree::
   :maxdepth: 2
-  :caption: Performance test and Prism Pro
+  :caption: Performance test 
   :name: _labs
   :hidden:
 
   xray/xray
+
+.. toctree::
+  :maxdepth: 2
+  :caption: Prism Ops
+  :name: _labs
+  :hidden:
+
   prism_central_dashboards_reports/prism_central_dashboards_reports
   prism_central_planning/prism_central_planning
+  prismops_capacity_lab/prismops_capacity_lab
+  prismops_rightsize_lab/prismops_rightsize_lab
 
 
 .. toctree::
