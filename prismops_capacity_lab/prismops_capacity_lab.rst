@@ -11,6 +11,28 @@ In this lab you will learn how Prism Pro can help IT Admins monitor, analyze and
 Lab Setup
 +++++++++
 
+Open \https://*<POCxx-ABC Cluster IP>*:9440 (\https://10.42.xx.37:9440) in your browser and log in with the following credentials:
+
+- **Username** - admin
+- **Password** - tech2020!
+
+#. Go to configuration page and navigate to **Image Configuration**, click **+Upload Image**
+Fill out the following fields and click **Save**:
+
+- **Name** - PrismOpsLabUtilityServer
+- **Image Type** - Disk
+- **Storage Container** Images
+- Select **From URL**
+- **Image Source** - http://10.42.194.11/workshop_staging/GTSPrismOpsLabUtilityServer.qcow2
+
+#. Now we are going to create an VM from image PrismOpsLabUtilityServer. 
+
+In **Prism > VM**, click **+ Create VM**, give it the name **PrismOpsLabUtilityServer** and then click **+ Add New Disk** , choose **Clone from Image Service** and image ‘PrismOpsLabUtilityServer’，click **Add**.
+Click **+Add new NIC** and choose **Primary**, click **Add**.
+
+ 
+After PrismOpsLabUtilityServer VM is created successfully, power on AD this.
+
 #. Open your **Prism Central** and navigate to the **VMs** page. Note down the IP Address of the **PrismOpsLabUtilityServer**. You will need to access this IP Address throughout this lab.
 
    .. figure:: images/init1.png
