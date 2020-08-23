@@ -16,6 +16,7 @@ Lab Setup
 - **Username** - admin
 - **Password** - tech2020!
 
+
 #. Go to configuration page and navigate to **Image Configuration**, click **+Upload Image**
 Fill out the following fields and click **Save**:
 
