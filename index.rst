@@ -8,7 +8,7 @@
 
   diyfoundation/diyfoundation
   prism_central_deploy/prism_central_deploy
-  AD/AD
+  
   
 
 .. toctree::
@@ -31,7 +31,7 @@
   prismops_rightsize_lab/prismops_rightsize_lab
 
 
-.. toctree::
+//.. toctree::
   :maxdepth: 2
   :caption: Appendix
   :name: _labs
