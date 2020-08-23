@@ -11,7 +11,7 @@ In this lab you will learn how Prism Pro can help IT Admins monitor, analyze and
 Lab Setup
 +++++++++
 
-Open \https://*<POCxx-ABC Cluster IP>*:9440 (\https://10.42.xx.37:9440) in your browser and log in with the following credentials:
+#. Open \https://*<POCxx-ABC Cluster IP>*:9440 (\https://10.42.xx.37:9440) in your browser and log in with the following credentials:
 
 - **Username** - admin
 - **Password** - tech2020!
@@ -31,7 +31,7 @@ In **Prism > VM**, click **+ Create VM**, give it the name **PrismOpsLabUtilityS
 Click **+Add new NIC** and choose **Primary**, click **Add**.
 
  
-After PrismOpsLabUtilityServer VM is created successfully, power on AD this.
+After PrismOpsLabUtilityServer VM is created successfully, power on this VM.
 
 #. Open your **Prism Central** and navigate to the **VMs** page. Note down the IP Address of the **PrismOpsLabUtilityServer**. You will need to access this IP Address throughout this lab.
 

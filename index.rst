@@ -31,15 +31,6 @@
   prismops_rightsize_lab/prismops_rightsize_lab
 
 
-//.. toctree::
-  :maxdepth: 2
-  :caption: Appendix
-  :name: _labs
-  :hidden:
-  
-  tools_vms/windows_tools_vm
-  taskman/taskman
-
 
 .. _getting_started:
 
