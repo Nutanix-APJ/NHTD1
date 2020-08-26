@@ -11,13 +11,13 @@ In this lab you will learn how Prism Pro can help IT Admins monitor, analyze and
 Lab Setup
 +++++++++
 
-#. Open \https://*<POCxx-ABC Cluster IP>*:9440 (\https://10.42.xx.37:9440) in your browser and log in with the following credentials:
+1. Open \https://*<POCxx-ABC Cluster IP>*:9440 (\https://10.42.xx.37:9440) in your browser and log in with the following credentials:
 
 - **Username** - admin
 - **Password** - tech2020!
 
 
-#. Go to configuration page and navigate to **Image Configuration**, click **+Upload Image**
+2. Go to configuration page and navigate to **Image Configuration**, click **+Upload Image**
 Fill out the following fields and click **Save**:
 
 - **Name** - PrismOpsLabUtilityServer
@@ -26,7 +26,7 @@ Fill out the following fields and click **Save**:
 - Select **From URL**
 - **Image Source** - http://10.42.194.11/workshop_staging/GTSPrismOpsLabUtilityServer.qcow2
 
-#. Now we are going to create an VM from image PrismOpsLabUtilityServer. 
+3. Now we are going to create an VM from image PrismOpsLabUtilityServer. 
 
 In **Prism > VM**, click **+ Create VM**, give it the name **PrismOpsLabUtilityServer** and then click **+ Add New Disk** , choose **Clone from Image Service** and image ‘PrismOpsLabUtilityServer’，click **Add**.
 Click **+Add new NIC** and choose **Primary**, click **Add**.
@@ -34,19 +34,19 @@ Click **+Add new NIC** and choose **Primary**, click **Add**.
  
 After PrismOpsLabUtilityServer VM is created successfully, power on this VM.
 
-#. Open your **Prism Central** and navigate to the **VMs** page. Note down the IP Address of the **PrismOpsLabUtilityServer**. You will need to access this IP Address throughout this lab.
+4. Open your **Prism Central** and navigate to the **VMs** page. Note down the IP Address of the **PrismOpsLabUtilityServer**. You will need to access this IP Address throughout this lab.
 
    .. figure:: images/init1.png
 
-#. Open a new tab in the browser, and navigate to http://`<PrismOpsLabUtilityServer_IP_ADDRESS>`/alerts [example http://10.38.17.12/alerts]. It is possible you may need to log into the VM if you are the first one to use it. Just fill out the **Prism Central IP**, **Username** and **Password** and click **Login**.
+5. Open a new tab in the browser, and navigate to http://`<PrismOpsLabUtilityServer_IP_ADDRESS>`/alerts [example http://10.38.17.12/alerts]. It is possible you may need to log into the VM if you are the first one to use it. Just fill out the **Prism Central IP**, **Username** and **Password** and click **Login**.
 
    .. figure:: images/init2.png
 
-#. Once you have landed on the alerts page, leave the tab open. It will be used in a later portion of this lab.
+6. Once you have landed on the alerts page, leave the tab open. It will be used in a later portion of this lab.
 
    .. figure:: images/init2b.png
 
-#. In a separate tab, navigate to http://`<PrismOpsLabUtilityServer_IP_ADDRESS>`/ to complete the lab from [example http://10.38.17.12/]. Use the UI at this URL to complete the lab.
+7. In a separate tab, navigate to http://`<PrismOpsLabUtilityServer_IP_ADDRESS>`/ to complete the lab from [example http://10.38.17.12/]. Use the UI at this URL to complete the lab.
 
    .. figure:: images/init3.png
 
@@ -55,26 +55,26 @@ Capacity Planning Runway Monitoring
 
 Capacity runway is a measure of the remaining capacity left within a given cluster or node. There is an overall cluster runway as well as individual runway measurements for CPU, Memory and storage capacity. The Capacity Runway is calculated using X-FIT, Prism Pro's machine intelligence engine. Lets view the Capacity Runway of your lab cluster.
 
-#. In **Prism Central > Operations > Planning > Capacity Runway**.
+8. In **Prism Central > Operations > Planning > Capacity Runway**.
 
    - Note the runway summaries showing the days left for each cluster.
    - How long does the current cluster has before it runs out of memory, CPU, and storage?
 
-#. Click on the **Prism-Pro-Cluster** cluster.
+9. Click on the **Prism-Pro-Cluster** cluster.
 
-#. You can now take a look at the Runway for Storage, CPU, and Memory.
+10. You can now take a look at the Runway for Storage, CPU, and Memory.
 
    .. figure:: images/ppro_12.png
 
-#. When selecting the Memory tab, you can see a Red Exclamation mark, indicating where this cluster will run out of Memory. You can hover the chart at this point to see on which day this will occur.
+11. When selecting the Memory tab, you can see a Red Exclamation mark, indicating where this cluster will run out of Memory. You can hover the chart at this point to see on which day this will occur.
 
    .. figure:: images/ppro_13.png
 
-#. Click on the **‘Optimize Resources’** button on left. This is where you can see the inefficient VMs in the environment with suggestions on how you can optimize these resources to be as efficient as possible.
+12. Click on the **‘Optimize Resources’** button on left. This is where you can see the inefficient VMs in the environment with suggestions on how you can optimize these resources to be as efficient as possible.
 
    .. figure:: images/ppro_14.png
 
-#. Close the optimize resources popup.
+13. Close the optimize resources popup.
 
 Capacity Planning Runway Analysis
 ++++++++++++++++++++++++++++++++++++++

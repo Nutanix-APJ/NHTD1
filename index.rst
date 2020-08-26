@@ -26,7 +26,6 @@
   :hidden:
 
   prism_central_dashboards_reports/prism_central_dashboards_reports
-  prism_central_planning/prism_central_planning
   prismops_capacity_lab/prismops_capacity_lab
   prismops_rightsize_lab/prismops_rightsize_lab
 
