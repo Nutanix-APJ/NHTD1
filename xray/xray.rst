@@ -28,7 +28,7 @@ Open a terminal and SSH to Node-D CVM, enter CVM credentials then execute follow
   
 .. code-block:: bash
 
- ssh nutanix@10.42.xx.32    # Enter 'Y' when prompted to proceed, password: techX2020!
+ ssh nutanix@10.42.xx.32    # Enter 'Y' when prompted to proceed, password: techX2021!
 
  acli image.create X-Ray container=Images image_type=kDiskImage source_url=https://ntnx-portal.s3.amazonaws.com/XRay/3.7.0/xray.qcow2
  
@@ -43,7 +43,7 @@ For targeting network, we will use the Secondary network VLAN for communication 
 Now we switch to Prism portal of single node cluster D , Open \https://*<POCxx-D Cluster IP>*:9440 (\https://10.42.xx.32:9440) in your browser and log in with the following credentials:
 
 - **Username** - admin
-- **Password** - techX2020!
+- **Password** - techX2021!
 
 
 Then, configue the **Secondary** networks to 1 node cluster.
@@ -61,7 +61,7 @@ Creating X-Ray VM
 Open \https://*<POCxx-D Cluster IP>*:9440 (\https://10.42.xx.32:9440) in your browser and log in with the following credentials:
 
 - **Username** - admin
-- **Password** - techX2020!
+- **Password** - techX2021!
 
 In **Prism > VM > Table** and click **+ Create VM**.
 
@@ -149,7 +149,7 @@ Select **Targets** from the navigation bar and click **+ New Target**. Fill out 
 - **Password** - ADMIN
 - **Prism Address** - <*3-Node Cluster Virtual IP*> 10.42.xx.37
 - **Username** - admin
-- **Password** - techX2020!
+- **Password** - techX2021!
 
 .. figure:: images/11.png
 
